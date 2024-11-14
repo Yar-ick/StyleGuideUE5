@@ -1,4 +1,4 @@
-UE5 Style Guide() {
+## UE5 Style Guide() {
 
 ## Table of contents
 - [Important Terminology](#important-terminology)
