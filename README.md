@@ -34,6 +34,7 @@ UE5 Style Guide() {
   - [1.2.10 Sounds](#anc-sounds)
   - [1.2.11 User Interface](#anc-ui)
   - [1.2.12 Effects](#anc-effects)
+  - [1.2.13 Modular Game Features](#anc-game-features)
 - [2. Content Directory Structure](#structure)
   - [2e1 Example Project Content Structure](#2e1)
   - [2.1 Folder Names](#structure-folder-names)
@@ -501,6 +502,15 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | ----------------------- | ---------- | ---------- | -------------------------------- |
 | Particle System         | PS_        |            |                                  |
 | Material (Post Process) | PP_        |            |                                  |
+
+<a name="anc-game-features"></a>
+<a name="1.2.13"></a>
+### 1.2.13 Modular Game Features
+
+| Asset Type                                   | Prefix     | Suffix      | Notes                                               |
+| -------------------------------------------- | ---------- | ----------- | --------------------------------------------------- |
+| GameFeatureData (Game feature folder itself) |            | GameFeature | I.e. GravityHandGameFeature or AntiAbuseGameFeature |
+
 
 **[⬆ Back to Top](#table-of-contents)**
 
